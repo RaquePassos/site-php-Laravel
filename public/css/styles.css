@@ -92,13 +92,6 @@ header {
     margin: 0 auto;
 }
 
-#cards-container img {
-    max-width: 300px;
-    max-height: 300px;
-    width: auto;
-    height: auto;
-}
-
 /* Events list */
 #events-container {
     padding: 50px;
@@ -115,7 +108,6 @@ header {
 
 #cards-container {
     display: flex;
-
 }
 
 #events-container .card {

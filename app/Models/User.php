@@ -59,12 +59,6 @@ class User extends Authenticatable
         'profile_photo_url',
     ];
 
-    public function getlogado(){
-        return $this->name;
-
-    }
-
-
     public function events() {
         return $this->hasMany('App\Models\Event');
     }

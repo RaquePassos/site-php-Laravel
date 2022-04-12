@@ -45,9 +45,6 @@
                   </a>
                 </form>
               </li>
-              <li class="nav-item">
-                <a href="/dashboard" class="nav-link" >{{ Auth::user()->getlogado() }}</a>
-              </li>
               @endauth
               @guest
               <li class="nav-item">
